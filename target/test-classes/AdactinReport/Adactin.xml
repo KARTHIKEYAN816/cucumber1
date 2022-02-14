@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="53.276713">
-<testcase classname="Validation of Login Page in Adactin Web Page" name="Tc01_Validation of Login Page with Valid Username and Valid Password" time="53.276713">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="58.19464">
+<testcase classname="Validation of Login Page in Adactin Web Page" name="Tc01_Validation of Login Page with Valid Username and Valid Password" time="58.19464">
 <system-out><![CDATA[Given User Launch Adactin Web Page..........................................passed
 Then User Verifies Adactin Web Page Is Displayed............................passed
 When User Enters Valid "Nolan425" and Valid "Karthik425@"...................passed
