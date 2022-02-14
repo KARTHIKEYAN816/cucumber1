@@ -1,0 +1,282 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-13T13:24:33.574Z",
+        "before": [
+          {
+            "result": {
+              "duration": 27537833101,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.BeforeExecution()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Tc01_Validation of Login Page with Valid Username and Valid Password",
+        "description": "",
+        "id": "validation-of-login-page-in-adactin-web-page;tc01-validation-of-login-page-with-valid-username-and-valid-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1664125800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.AfterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 229717300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Launch Adactin Web Page",
+            "match": {
+              "location": "StepDefinitions.user_Launch_Adactin_Web_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 664403801,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Verifies Adactin Web Page Is Displayed",
+            "match": {
+              "location": "StepDefinitions.user_Verifies_Adactin_Web_Page_Is_Displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1558152401,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Enters Valid \"Nolan425\" and Valid \"Karthik425@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nolan425\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Karthik425@\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinitions.user_Enters_Valid_and_Valid(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5194525800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Clicks Login Button",
+            "match": {
+              "location": "StepDefinitions.user_Clicks_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115295601,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Verify Serch Hotel Page is Displayed",
+            "match": {
+              "location": "StepDefinitions.user_Verify_Serch_Hotel_Page_is_Displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2498602900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Selects Valid \"\u003cLocation\u003e\",\"\u003cHotelName\u003e\",\"\u003cHotelType\u003e\",\"\u003cNoOfRooms\u003e\",\"13/02/2022\",\"15/02/2022\",\"\u003cAdultsPerRooms\u003e\",\"\u003cChildrenPerRoom\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cLocation\u003e\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"\u003cHotelName\u003e\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"\u003cHotelType\u003e\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"\u003cNoOfRooms\u003e\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"13/02/2022\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"15/02/2022\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"\u003cAdultsPerRooms\u003e\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"\u003cChildrenPerRoom\u003e\"",
+                  "offset": 119
+                }
+              ],
+              "location": "StepDefinitions.user_Selects_Valid(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1638384600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Clicks Serch Button",
+            "match": {
+              "location": "StepDefinitions.user_Clicks_Serch_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60342899,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Verify Adactin Select Hotel Page Is Displayed",
+            "match": {
+              "location": "StepDefinitions.user_Verify_Adactin_Select_Hotel_Page_Is_Displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1909387200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Clicks Radio Button and Continue Button",
+            "match": {
+              "location": "StepDefinitions.user_Clicks_Radio_Button_and_Continue_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73631700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Verify Adactin Book a Hotel Page Is Displayed",
+            "match": {
+              "location": "StepDefinitions.user_Verify_Adactin_Book_a_Hotel_Page_Is_Displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 942279001,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Enters Valid \"Nolan\",\"John\",\"Doorno-456,SouthRoad,Delhi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nolan\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"John\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Doorno-456,SouthRoad,Delhi\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinitions.user_Enters_Valid(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1396563901,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Entres Valid \"9876564789765345\",Card Type,ExpMonth,ExpYear and \"456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9876564789765345\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"456\"",
+                  "offset": 68
+                }
+              ],
+              "location": "StepDefinitions.user_Entres_Valid_Card_Type_ExpMonth_ExpYear_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 163237500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Clicks Book Now Button",
+            "match": {
+              "location": "StepDefinitions.user_Clicks_Book_Now_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7490592300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Verify Order ID is Displayed",
+            "match": {
+              "location": "StepDefinitions.user_Verify_Order_ID_is_Displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of Login Page in Adactin Web Page",
+    "description": "",
+    "id": "validation-of-login-page-in-adactin-web-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/AdactinLogin.feature",
+    "tags": []
+  }
+]

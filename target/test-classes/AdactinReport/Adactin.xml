@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="53.276713">
+<testcase classname="Validation of Login Page in Adactin Web Page" name="Tc01_Validation of Login Page with Valid Username and Valid Password" time="53.276713">
+<system-out><![CDATA[Given User Launch Adactin Web Page..........................................passed
+Then User Verifies Adactin Web Page Is Displayed............................passed
+When User Enters Valid "Nolan425" and Valid "Karthik425@"...................passed
+And User Clicks Login Button................................................passed
+Then User Verify Serch Hotel Page is Displayed..............................passed
+When User Selects Valid "<Location>","<HotelName>","<HotelType>","<NoOfRooms>","13/02/2022","15/02/2022","<AdultsPerRooms>","<ChildrenPerRoom>".passed
+And User Clicks Serch Button................................................passed
+Then User Verify Adactin Select Hotel Page Is Displayed.....................passed
+When User Clicks Radio Button and Continue Button...........................passed
+Then User Verify Adactin Book a Hotel Page Is Displayed.....................passed
+When User Enters Valid "Nolan","John","Doorno-456,SouthRoad,Delhi"..........passed
+When User Entres Valid "9876564789765345",Card Type,ExpMonth,ExpYear and "456".passed
+And User Clicks Book Now Button.............................................passed
+Then User Verify Order ID is Displayed......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
